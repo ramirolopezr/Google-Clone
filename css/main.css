@@ -1,0 +1,158 @@
+* 
+{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+ font-size: 62.5%;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+header {
+    width: 100%;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.container {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.container a {
+    margin: 15px;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.container .menu-icon {
+    background-image: url('https://www.svgrepo.com/show/42113/keyboard-buttons-or-visualization-button-of-nine-squares.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
+.container .menu-perfil {
+    border-radius: 50%;   
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.principal .principal-buttons {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 1.5rem;
+}
+.principal .principal-aut {
+    font-size: 1.3rem;
+}
+
+.principal .principal-buttons .principal-buttons1 {
+    margin: 11px 6px;
+    padding: 0px 16px;
+    width: 159.08px;
+    height: 36px;
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 5px;
+}
+.principal .principal-buttons .principal-buttons1:hover {
+    box-shadow: -1px 0px 8px -2px rgba(143,139,139,0.79);
+    ;
+}
+
+
+.input-bus  {
+    position: relative;
+    width: 550px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 23px;
+    border-radius: 100px;
+    border: solid #e2e2e2 1px;
+
+}
+
+.input 
+{
+    width: 480px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    padding-left: 8px;
+}
+
+.input-bus:hover  {
+    box-shadow: -1px 0px 8px -2px rgba(143,139,139,0.79);}
+.input-bus .micro {
+    padding-right: 1px;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+
+.input-bus .lupa {
+    position: absolute;
+
+    top: 10px;
+
+    left: 12px;
+}
+
+body footer {
+    background-color: black;
+}
+.footer{
+background-color: #F2F2F2;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.footer-li--left li
+{
+    margin-left: 20px;
+}
+.footer-li--right li {
+    margin-right: 20px;
+}
